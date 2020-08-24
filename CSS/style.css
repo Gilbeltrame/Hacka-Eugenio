@@ -1,0 +1,163 @@
+.navbar{
+    background-color:#5A25F1;
+}
+
+.navbar button{
+    border-radius: 20px;
+
+}
+
+.capa{
+    background-color:#5A25F1;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-items: center;
+
+    padding-top: 2em;
+    padding-bottom: 2em;
+
+}
+.capa .imagem{
+    margin-top: 2em;
+    margin-left: 8em;
+
+}
+
+.capa .titulo{
+    width: 33em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+    margin-left: 5em;
+
+    color: white;
+}
+
+.capa .titulo span{
+    
+    color: white;
+    font-weight: 300;
+}
+
+.capa .titulo button{
+    
+    margin-top: 4em;
+    color: #5A25F1;
+    font-weight: 650;
+
+}
+
+.como-funciona{
+    background-color:white;
+
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.como-funciona .titulo{
+        width: 30em;
+    
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        
+        margin-left: 10em;
+
+        color:#5A25F1;        
+}
+
+.como-funciona .titulo p{
+    color:#9A9A9A;
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+
+    margin-top: 1em;
+}
+
+.como-funciona .imagens{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.como-funciona .imagens #elipse{
+    justify-content: flex-end;
+    display: flex;
+    position: absolute;
+    width:80px ;
+
+    margin-top: -3.2em;
+}
+
+.como-funciona .imagens #fundo{
+    width:35em ;
+    margin-top: 10em;
+}
+
+.facil-e-rapido{
+    background-color:#5A25F1;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}  
+
+.facil-e-rapido .imagens #elipse{
+
+    position: absolute;
+    margin-top:-13em;
+}
+
+.facil-e-rapido .imagens #celular{
+    margin-left: 2em;
+    margin-top: 4rem;
+    margin-bottom: -10em;
+ }
+
+ .facil-e-rapido .titulo{
+    width: 33em;
+    
+    color:white;
+    margin-top: 0em;
+
+    margin-left: 2em;
+
+
+ }
+
+ .facil-e-rapido .titulo span{
+    font-weight: 100;
+}
+
+.facil-e-rapido .titulo p{
+    margin-top: 2em
+}
+
+.facil-e-rapido .titulo iframe{
+    margin-top: 2em;
+    border-radius: 10px;
+}
+
+.rodape{
+    position: absolute;
+    right: 0;
+    margin-top: -10em;
+}
+
+.rodape img{
+    width: 250px;
+}
