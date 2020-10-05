@@ -2,6 +2,10 @@
     background-color:#FFFF;
 }
 
+.menu-mobile{
+    display: none;
+}
+
 .capa{
     background-color:#FF5243;
 
@@ -144,9 +148,6 @@
 
 .rodape{
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    height: 100px;
     align-items: center;
     justify-content: center;
 }
@@ -156,15 +157,14 @@
 }
 
 @media (max-width:800px){
-    .navbar .navbar-nav{
+    .header {
         display: none;
     }
 
-    .navbar .navbar-brand{
+    .menu-mobile{
         display: flex;
-        align-items: center;
         justify-content: center;
-
+        align-items: center;
     }
 
     .capa{
@@ -240,17 +240,18 @@
     
     .facil-e-rapido .imagens #celular{
         display: none;    
+        margin: 0;
      }
     
      .facil-e-rapido .titulo{
-        width: 30em;
+        width: fit-content;
         align-items: center;
         text-align: center;
         padding-top: 2em;
      }
 
      .facil-e-rapido .titulo h1{
-        font-size:x-large;
+        display: inline;
     }
    
     .facil-e-rapido .titulo p{
@@ -260,9 +261,8 @@
      .facil-e-rapido .titulo iframe{
         width: fit-content;
     }
-
-    .rodape{
-        display: flex;
+    .rodape img{
+        width: 250px;
     }
-
+    
 }
