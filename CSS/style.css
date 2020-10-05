@@ -243,6 +243,7 @@
      }
     
      .facil-e-rapido .titulo{
+        width: 30em;
         align-items: center;
         text-align: center;
         padding-top: 2em;
