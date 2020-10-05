@@ -74,6 +74,7 @@
 .como-funciona .titulo p{
     color:#9A9A9A;
     margin-top: 1em;
+    text-align: right;
 }
 
 .como-funciona .titulo span{
@@ -152,4 +153,91 @@
 
 .rodape img{
     width: 200px;
+}
+
+@media (max-width:800px){
+    .navbar .navbar-nav{
+        display: none;
+    }
+
+    .navbar .navbar-brand{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .capa{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .capa .imagem{
+       display: none
+    }
+
+    .capa .titulo{
+        padding-top: 2em;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+
+        margin-top: 1em;
+        margin-bottom: 1em;
+     }
+
+     .como-funciona{   
+        flex-direction: column;
+        justify-content: center;       
+    }
+
+    .como-funciona .titulo{
+        margin-top: 2em;
+        padding-top: 2em;
+        margin-left: 0;
+        align-items: center;
+        text-align: center;   
+    }
+
+    .como-funciona .titulo p{
+        margin-top: 2em;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .como-funciona .titulo span{
+        align-items: center;
+    }
+    
+    .como-funciona .imagens{
+        margin: 0;
+    }
+
+    .como-funciona .imagens #fundo{
+        width:450px ;
+        margin-top: 3em;
+        margin-bottom: 5em;
+    }
+
+    .facil-e-rapido{
+        flex-direction: column;
+        justify-content: center;
+    
+        padding-bottom: 2em;
+    }  
+    
+    .facil-e-rapido .imagens #celular{
+        display: none;    
+     }
+    
+     .facil-e-rapido .titulo{
+        text-align: center;
+        padding-top: 2em;
+     }
+
+
+
 }
