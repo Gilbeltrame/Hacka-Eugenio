@@ -73,11 +73,12 @@
 
 .como-funciona .titulo p{
     color:#9A9A9A;
-    
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
+    margin-top: 1em;
+}
 
+.como-funciona .titulo span{
+    color:#FF5243;
+    font-weight: 500;
     margin-top: 1em;
 }
 
@@ -86,15 +87,13 @@
     flex-direction: column;
     align-items: flex-end;
 
-    margin-top: -70px;
-    margin-right: 30px;
-    margin-bottom: 30px;
-
+    margin-right: 2em;
 }
 
 .como-funciona .imagens #fundo{
     width:35em ;
-    margin-top: 10em;
+    margin-top: 5em;
+    margin-bottom: 5em;
 }
 
 .facil-e-rapido{
