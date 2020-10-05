@@ -195,11 +195,16 @@
     }
 
     .como-funciona .titulo{
+        width: fit-content;
         margin-top: 2em;
         padding-top: 2em;
         margin-left: 0;
         align-items: center;
         text-align: center;   
+
+        padding-left: 1em;
+        padding-right: 1em;
+    
     }
 
     .como-funciona .titulo p{
@@ -217,7 +222,13 @@
     }
 
     .como-funciona .imagens #fundo{
-        width:450px ;
+        width:250px ;
+        margin-top: 3em;
+        margin-bottom: 5em;
+    }
+
+    .como-funciona .imagens #fundo img{
+        width:fit-content ;
         margin-top: 3em;
         margin-bottom: 5em;
     }
@@ -225,8 +236,6 @@
     .facil-e-rapido{
         flex-direction: column;
         justify-content: center;
-    
-        padding-bottom: 2em;
     }  
     
     .facil-e-rapido .imagens #celular{
@@ -234,10 +243,25 @@
      }
     
      .facil-e-rapido .titulo{
+        align-items: center;
         text-align: center;
         padding-top: 2em;
      }
 
+     .facil-e-rapido .titulo h1{
+        font-size:x-large;
+    }
+   
+    .facil-e-rapido .titulo p{
+        display: none;
+    }
 
+     .facil-e-rapido .titulo iframe{
+        width: fit-content;
+    }
+
+    .rodape{
+        display: flex;
+    }
 
 }
